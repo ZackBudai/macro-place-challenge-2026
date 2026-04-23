@@ -1,0 +1,20 @@
+{
+  "num_benchmarks": 1,
+  "avg_proxy_cost": 1.2911690473556519,
+  "avg_wirelength": 0.0734514519572258,
+  "avg_density": 1.046438217163086,
+  "avg_congestion": 1.3889970144888455,
+  "avg_runtime_s": 3.6312129497528076,
+  "total_overlaps": 0,
+  "valid_benchmarks": 1,
+  "all_valid": true,
+  "avg_sa": 1.3166,
+  "avg_replace": 0.9976,
+  "leaderboard_rank": 1,
+  "leaderboard_total": 19,
+  "best_readme_avg_proxy_cost": 1.3255,
+  "gap_to_best_readme": -0.034330952644348045,
+  "gap_to_replace": 0.2935690473556518,
+  "gap_to_sa": -0.025430952644348137,
+  "report_dir": "reports/current_solution"
+}

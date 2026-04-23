@@ -1,0 +1,345 @@
+{
+  "total": 26,
+  "ok": 26,
+  "invalid": 0,
+  "results": [
+    {
+      "file": "ariane133_ng45.pt",
+      "benchmark": "ariane133_ng45",
+      "num_macros": 915,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 0.7474238872528076,
+      "shape": [
+        915,
+        2
+      ]
+    },
+    {
+      "file": "ariane133_ng45_random.pt",
+      "benchmark": "output_CT_Grouping",
+      "num_macros": 133,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 0.5972156524658203,
+      "shape": [
+        133,
+        2
+      ]
+    },
+    {
+      "file": "ariane136_asap7.pt",
+      "benchmark": "output_CT_Grouping",
+      "num_macros": 923,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 0.6779377460479736,
+      "shape": [
+        923,
+        2
+      ]
+    },
+    {
+      "file": "ariane136_ng45.pt",
+      "benchmark": "ariane136_ng45",
+      "num_macros": 908,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 0.7348291873931885,
+      "shape": [
+        908,
+        2
+      ]
+    },
+    {
+      "file": "bp_quad_ng45.pt",
+      "benchmark": "bp_ng45",
+      "num_macros": 220,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 1.506908655166626,
+      "shape": [
+        220,
+        2
+      ]
+    },
+    {
+      "file": "ibm01.pt",
+      "benchmark": "ibm01",
+      "num_macros": 1140,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 1.813934326171875,
+      "shape": [
+        1140,
+        2
+      ]
+    },
+    {
+      "file": "ibm02.pt",
+      "benchmark": "ibm02",
+      "num_macros": 1346,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 2.423769950866699,
+      "shape": [
+        1346,
+        2
+      ]
+    },
+    {
+      "file": "ibm03.pt",
+      "benchmark": "ibm03",
+      "num_macros": 1438,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 2.505622625350952,
+      "shape": [
+        1438,
+        2
+      ]
+    },
+    {
+      "file": "ibm04.pt",
+      "benchmark": "ibm04",
+      "num_macros": 1380,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 2.8811237812042236,
+      "shape": [
+        1380,
+        2
+      ]
+    },
+    {
+      "file": "ibm06.pt",
+      "benchmark": "ibm06",
+      "num_macros": 1078,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 1.1413016319274902,
+      "shape": [
+        1078,
+        2
+      ]
+    },
+    {
+      "file": "ibm07.pt",
+      "benchmark": "ibm07",
+      "num_macros": 1331,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 93.42190766334534,
+      "shape": [
+        1331,
+        2
+      ]
+    },
+    {
+      "file": "ibm08.pt",
+      "benchmark": "ibm08",
+      "num_macros": 1331,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 2.852973461151123,
+      "shape": [
+        1331,
+        2
+      ]
+    },
+    {
+      "file": "ibm09.pt",
+      "benchmark": "ibm09",
+      "num_macros": 1301,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 2.1863560676574707,
+      "shape": [
+        1301,
+        2
+      ]
+    },
+    {
+      "file": "ibm10.pt",
+      "benchmark": "ibm10",
+      "num_macros": 2768,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 17.576972723007202,
+      "shape": [
+        2768,
+        2
+      ]
+    },
+    {
+      "file": "ibm11.pt",
+      "benchmark": "ibm11",
+      "num_macros": 1568,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 4.712414741516113,
+      "shape": [
+        1568,
+        2
+      ]
+    },
+    {
+      "file": "ibm12.pt",
+      "benchmark": "ibm12",
+      "num_macros": 2636,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 12.854998588562012,
+      "shape": [
+        2636,
+        2
+      ]
+    },
+    {
+      "file": "ibm13.pt",
+      "benchmark": "ibm13",
+      "num_macros": 1725,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 23.21335792541504,
+      "shape": [
+        1725,
+        2
+      ]
+    },
+    {
+      "file": "ibm14.pt",
+      "benchmark": "ibm14",
+      "num_macros": 2143,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 6.139191150665283,
+      "shape": [
+        2143,
+        2
+      ]
+    },
+    {
+      "file": "ibm15.pt",
+      "benchmark": "ibm15",
+      "num_macros": 1531,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 16.241764307022095,
+      "shape": [
+        1531,
+        2
+      ]
+    },
+    {
+      "file": "ibm16.pt",
+      "benchmark": "ibm16",
+      "num_macros": 1773,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 3.378484010696411,
+      "shape": [
+        1773,
+        2
+      ]
+    },
+    {
+      "file": "ibm17.pt",
+      "benchmark": "ibm17",
+      "num_macros": 2604,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 39.48660111427307,
+      "shape": [
+        2604,
+        2
+      ]
+    },
+    {
+      "file": "ibm18.pt",
+      "benchmark": "ibm18",
+      "num_macros": 1314,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 1.3179943561553955,
+      "shape": [
+        1314,
+        2
+      ]
+    },
+    {
+      "file": "mempool_tile_asap7.pt",
+      "benchmark": "output_CT_Grouping",
+      "num_macros": 587,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 14.850402593612671,
+      "shape": [
+        587,
+        2
+      ]
+    },
+    {
+      "file": "mempool_tile_ng45.pt",
+      "benchmark": "mempool_tile_ng45",
+      "num_macros": 581,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 0.07271051406860352,
+      "shape": [
+        581,
+        2
+      ]
+    },
+    {
+      "file": "nvdla_asap7.pt",
+      "benchmark": "output_CT_Grouping",
+      "num_macros": 855,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 0.3210468292236328,
+      "shape": [
+        855,
+        2
+      ]
+    },
+    {
+      "file": "nvdla_ng45.pt",
+      "benchmark": "nvdla_ng45",
+      "num_macros": 799,
+      "status": "ok",
+      "valid": true,
+      "violations": [],
+      "runtime_s": 0.3974156379699707,
+      "shape": [
+        799,
+        2
+      ]
+    }
+  ]
+}

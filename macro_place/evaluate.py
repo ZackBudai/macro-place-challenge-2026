@@ -17,30 +17,9 @@ import time
 from pathlib import Path
 
 from macro_place.loader import load_benchmark, load_benchmark_from_dir
+from macro_place.leaderboard import IBM_BENCHMARKS, REPLACE_BASELINES, SA_BASELINES
 from macro_place.objective import compute_proxy_cost
 from macro_place.utils import validate_placement, visualize_placement
-
-# ── IBM ICCAD04 benchmark list ──────────────────────────────────────────────
-
-IBM_BENCHMARKS = [
-    "ibm01",
-    "ibm02",
-    "ibm03",
-    "ibm04",
-    "ibm06",
-    "ibm07",
-    "ibm08",
-    "ibm09",
-    "ibm10",
-    "ibm11",
-    "ibm12",
-    "ibm13",
-    "ibm14",
-    "ibm15",
-    "ibm16",
-    "ibm17",
-    "ibm18",
-]
 
 # ── NG45 commercial designs ────────────────────────────────────────────────
 
@@ -51,49 +30,8 @@ NG45_BENCHMARKS = {
     "nvdla": "external/MacroPlacement/Flows/NanGate45/nvdla/netlist/output_CT_Grouping",
 }
 
+# keep a local alias for the CLI defaults below
 BENCHMARKS = IBM_BENCHMARKS
-
-# ── Published baselines ─────────────────────────────────────────────────────
-
-SA_BASELINES = {
-    "ibm01": 1.3166,
-    "ibm02": 1.9072,
-    "ibm03": 1.7401,
-    "ibm04": 1.5037,
-    "ibm06": 2.5057,
-    "ibm07": 2.0229,
-    "ibm08": 1.9239,
-    "ibm09": 1.3875,
-    "ibm10": 2.1108,
-    "ibm11": 1.7111,
-    "ibm12": 2.8261,
-    "ibm13": 1.9141,
-    "ibm14": 2.2750,
-    "ibm15": 2.3000,
-    "ibm16": 2.2337,
-    "ibm17": 3.6726,
-    "ibm18": 2.7755,
-}
-
-REPLACE_BASELINES = {
-    "ibm01": 0.9976,
-    "ibm02": 1.8370,
-    "ibm03": 1.3222,
-    "ibm04": 1.3024,
-    "ibm06": 1.6187,
-    "ibm07": 1.4633,
-    "ibm08": 1.4285,
-    "ibm09": 1.1194,
-    "ibm10": 1.5009,
-    "ibm11": 1.1774,
-    "ibm12": 1.7261,
-    "ibm13": 1.3355,
-    "ibm14": 1.5436,
-    "ibm15": 1.5159,
-    "ibm16": 1.4780,
-    "ibm17": 1.6446,
-    "ibm18": 1.7722,
-}
 
 # ── Placer loading ───────────────────────────────────────────────────────────
 

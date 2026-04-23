@@ -143,6 +143,12 @@ uv run evaluate submissions/examples/greedy_row_placer.py --vis
 uv run evaluate submissions/examples/greedy_row_placer.py --all --vis
 ```
 
+To generate a report with README leaderboard comparisons and placement snapshots:
+
+```bash
+uv run python scripts/report_current_solution.py --output-dir reports/current_solution
+```
+
 Running on all benchmarks produces a summary like:
 ```
 Benchmark     Proxy        SA   RePlAce     vs SA  vs RePlAce  Overlaps

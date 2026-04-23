@@ -24,6 +24,7 @@ uv sync
 │   ├── objective.py        # Proxy cost computation
 │   ├── utils.py            # Validation and visualization
 │   └── def_writer.py       # DEF file export
+│   └── framework/          # Reusable placer framework and helpers
 ├── submissions/
 │   └── examples/           # Example placers (greedy_row_placer.py, simple_random_placer.py)
 ├── external/
@@ -157,6 +158,30 @@ Key constraints:
 - Moving hard macros without repositioning soft macros will degrade wirelength and density
 
 See `submissions/examples/greedy_row_placer.py` for a simple example and `submissions/will_seed/placer.py` for a more complete approach.
+
+### Using the Competition Framework
+
+If you want a structured starting point, build on `macro_place.framework`:
+
+```python
+import torch
+from macro_place.framework import CompetitionPlacer, PlacerConfig, pack_macros_in_rows
+
+
+class MyPlacer(CompetitionPlacer):
+    def __init__(self, seed=42):
+        super().__init__(PlacerConfig(seed=seed))
+
+    def initialize(self, benchmark, placement):
+        return pack_macros_in_rows(benchmark, placement=placement)
+
+    def refine_hard_macros(self, benchmark, placement):
+        # Insert your optimization loop here.
+        return placement
+```
+
+The framework automatically seeds RNGs, preserves fixed macros, clamps
+placements to the canvas, and stores the last validation result for debugging.
 
 ## Net Connectivity
 

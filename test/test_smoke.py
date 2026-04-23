@@ -5,9 +5,13 @@ import pytest
 from pathlib import Path
 
 from macro_place.benchmark import Benchmark
-from macro_place.loader import load_benchmark_from_dir
-from macro_place.objective import compute_proxy_cost
 from macro_place.utils import validate_placement
+
+try:
+    from macro_place.loader import load_benchmark_from_dir
+    from macro_place.objective import compute_proxy_cost
+except ModuleNotFoundError:
+    pytest.skip("TILOS submodule not initialized", allow_module_level=True)
 
 
 TESTCASE_ROOT = Path("external/MacroPlacement/Testcases/ICCAD04")
